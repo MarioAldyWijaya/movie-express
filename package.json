@@ -2,7 +2,6 @@
   "name": "movie-express",
   "version": "1.0.0",
   "main": "index.js",
- 
   "scripts": {
     "dev": "nodemon app.js"
   },
@@ -10,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/MarioAldyWijaya/movie-express.git"
   },
-  "type":"module",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,6 +19,7 @@
   "homepage": "https://github.com/MarioAldyWijaya/movie-express#readme",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "mongoose": "^8.19.2"
   },
